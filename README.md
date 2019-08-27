@@ -1,2 +1,0 @@
-# valentinquelquejay.fr
-Personal Website
