@@ -1,0 +1,30 @@
+{% include header.html %}
+
+	<!-- Container -->
+	<div class="container">
+		
+		<!-- Header -->
+		<header>
+				<div class="head-top">
+					<a href="#" class="menu-btn"><span></span></a>
+					<div class="top-menu">
+						<ul>
+							{% if page.layout != "index" %}
+							<li><a href="/" class="lnk">Home</a></li>
+							{% endif %}
+							{% if page.layout != "resume" %}
+							<li><a href="/resume" class="lnk">Resume</a></li>
+							{% endif %}
+							<li><a href="/contact" class="btn">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+		
+		<!-- Wrapper -->
+		<div class="wrapper">
+    
+    {{ content }}
+
+
+{% include footer.html %}
