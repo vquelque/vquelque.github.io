@@ -4,138 +4,142 @@ layout: default
 
 <!-- Started -->
 <div class="section started">
-    <div class="centrize full-width">
-        <div class="vertical-center">
-            <div class="started-content">
-                <div class="h-title glitch-effect" data-text="{{ page.glitch-title }}">{{ page.glitch-title }}</div>
-                <div class="h-subtitle typing-bread">
-                    <p>&#8595; &#8595; &#8595; &#8595; &#8595; &#8595;</p>
-                </div>
-                <span class="typed-bread"></span>
-            </div>
+  <div class="centrize full-width">
+    <div class="vertical-center">
+      <div class="started-content">
+        <div class="h-title glitch-effect" data-text="{{ page.glitch-title }}">
+          {{ page.glitch-title }}
         </div>
+        <div class="h-subtitle typing-bread">
+          <p>&#8595; &#8595; &#8595; &#8595; &#8595; &#8595;</p>
+        </div>
+        <span class="typed-bread"></span>
+      </div>
     </div>
-</div>	
+  </div>
+</div>
 
-    <!-- About -->
-    <div class="section about">
-        <div class="content">
-            <div class="title">
-                <div class="title_inner">About Me</div>
-            </div>
-            <div class="image">
-                <img src="/images/profile.jpg" alt=""/>
-            </div>
-            <div class="desc">
-                <p>
-                    My name is Valentin Quelquejay. I am a third year Bachelor student in Communication Systems at EPFL in Lausanne, Switzerland.
-                    I have interests in lot of domains, particulary in Cyber-Security and Audio/Video. I am passionate about pretty much everything i hear about.
-                </p>
-                <div class="info-list">
-                    <ul>
-                        <li><strong>Name:</strong> Valentin Quelquejay</li>
-                        <li><strong>Age:</strong> 21 Years</li>
-                        <li><strong>Citizenship:</strong> French</li>
-                        <li><strong>Residence: </strong> Lausanne</li>
-                        <li><strong>E-mail:</strong> valentin.quelquejay-leclere at epfl.ch</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
+<!-- About -->
+<div class="section about">
+  <div class="content">
+    <div class="title">
+      <div class="title_inner">About Me</div>
     </div>
-    
-    <!-- Resume -->
-    <div class="section resume">
-        <div class="content">
-            <div class="cols">
-                <div class="col col-md">
-                    <div class="title">
-                        <div class="title_inner">Academic Projects</div>
-                    </div>
+    <div class="image">
+      <img src="/images/profile.jpg" alt="" />
+    </div>
+    <div class="desc">
+      <p>
+        My name is Valentin Quelquejay. I am a master student in Cybersecurity
+        at EPFL in Lausanne and ETHZ in Zürich, Switzerland. I have interests in
+        lot of domains, particulary in Technologies, Privacy, Security,
+        Audio/Video and Environnement. I can become passionate about pretty much
+        everything I hear about.
+      </p>
+      <div class="info-list">
+        <ul>
+          <li><strong>Name:</strong> Valentin Quelquejay</li>
+          <li><strong>Age:</strong> 21 Years</li>
+          <li><strong>Citizenship:</strong> French</li>
+          <li><strong>Residence: </strong> Lausanne</li>
+          <li><strong>E-mail:</strong> hi at valentinquelquejay.fr</li>
+        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
 
-                    <div class="resume-items">
-                            {% for item in page.resume-items %}
-                            <div class="resume-item ">
-                                <div class="date">{{ item.date }}</div>
-                                <div class="name">{{ item.name }}</div>
-                                <p>{{ item.description }}</p>
-                            </div>  
-                            {% endfor %}                                    
-                    </div>
-                </div>
+<!-- Resume -->
+<div class="section resume">
+  <div class="content">
+    <div class="cols">
+      <div class="col col-md">
+        <div class="title">
+          <div class="title_inner">Academic Projects</div>
+        </div>
 
-                <div class="col col-md">
-                    <div class="title">
-                        <div class="title_inner">Education</div>
-                    </div>
+        <div class="resume-items">
+          {% for item in page.resume-items %}
+          <div class="resume-item ">
+            <div class="date">{{ item.date }}</div>
+            <div class="name">{{ item.name }}</div>
+            <p>{{ item.description }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
 
-                    <div class="resume-items">
-                            {% for item in page.education-items %}
-                            <div class="resume-item ">
-                                <div class="date">{{ item.date }}</div>
-                                <div class="name">{{ item.name }}</div>
-                                <p>{{ item.description }}</p>
-                            </div>  
-                            {% endfor %}                                    
-                    </div>
-                 
-                </div>
-            </div>
+      <div class="col col-md">
+        <div class="title">
+          <div class="title_inner">Education</div>
         </div>
-    </div>
-    
-    <!-- Skills -->
-    <div class="section skills">
-        <div class="content">
-            <div class="title">
-                <div class="title_inner">Languages</div>
-            </div>
-            <div class="skills">
-                <ul>
-                    <li> 
-                        <div class="name">French</div>
-                        <div class="progress">
-                            <div class="percentage" style="width:100%;">
-                                <span class="percent">100%</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li> 
-                        <div class="name">English</div>
-                        <div class="progress">
-                            <div class="percentage" style="width:75%;">
-                                <span class="percent">75%</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li> 
-                        <div class="name">Spanish</div>
-                        <div class="progress">
-                            <div class="percentage" style="width:20%;">
-                                <span class="percent">20%</span>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+
+        <div class="resume-items">
+          {% for item in page.education-items %}
+          <div class="resume-item ">
+            <div class="date">{{ item.date }}</div>
+            <div class="name">{{ item.name }}</div>
+            <p>{{ item.description }}</p>
+          </div>
+          {% endfor %}
         </div>
+      </div>
     </div>
-    
-    <!-- Service -->
-    <div class="section service">
-        <div class="content">
-            <div class="title">
-                <div class="title_inner">Skills & Hobbies</div>
-            </div>
-            <div class="service-items">
-                {% for item in page.skills %}
-                <div class="service-item">
-                        <div class="icon"><span class="ion {{ item.icon }}"></span></div>
-                        <div class="name">{{ item.name }}</div>
-                        <p>{{ item.description }} </p>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+  </div>
+</div>
+
+<!-- Skills -->
+<div class="section skills">
+  <div class="content">
+    <div class="title">
+      <div class="title_inner">Languages</div>
     </div>
+    <div class="skills">
+      <ul>
+        <li>
+          <div class="name">French</div>
+          <div class="progress">
+            <div class="percentage" style="width:100%;">
+              <span class="percent">100%</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="name">English</div>
+          <div class="progress">
+            <div class="percentage" style="width:75%;">
+              <span class="percent">75%</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="name">Spanish</div>
+          <div class="progress">
+            <div class="percentage" style="width:20%;">
+              <span class="percent">20%</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Service -->
+<div class="section service">
+  <div class="content">
+    <div class="title">
+      <div class="title_inner">Skills & Hobbies</div>
+    </div>
+    <div class="service-items">
+      {% for item in page.skills %}
+      <div class="service-item">
+        <div class="icon"><span class="ion {{ item.icon }}"></span></div>
+        <div class="name">{{ item.name }}</div>
+        <p>{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

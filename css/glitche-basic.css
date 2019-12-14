@@ -33,14 +33,14 @@
 
 /* 1. Basic */
 html {
-  margin-right: 0!important;
+  margin-right: 0 !important;
 }
 
 body {
   margin: 0;
   padding: 0;
   border: none;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 13px;
   color: #363636;
   background: #fff;
@@ -83,11 +83,10 @@ body.loaded .section {
   .container {
     margin: 15px;
   }
-
 }
 
 .container .line {
-  content: '';
+  content: "";
   position: fixed;
   background: #303f9f;
   z-index: 105;
@@ -104,7 +103,6 @@ body.loaded .section {
   .container .line.top {
     height: 15px;
   }
-
 }
 
 .container .line.bottom {
@@ -119,7 +117,6 @@ body.loaded .section {
   .container .line.bottom {
     height: 15px;
   }
-
 }
 
 .container .line.left {
@@ -133,7 +130,6 @@ body.loaded .section {
   .container .line.left {
     width: 15px;
   }
-
 }
 
 .container .line.right {
@@ -148,7 +144,6 @@ body.loaded .section {
   .container .line.right {
     width: 15px;
   }
-
 }
 
 .wrapper {
@@ -172,7 +167,6 @@ body.loaded .section {
   .cols .col.col-sm {
     width: 100%;
   }
-
 }
 
 .cols .col.col-lg {
@@ -184,7 +178,6 @@ body.loaded .section {
   .cols .col.col-lg {
     width: 100%;
   }
-
 }
 
 .cols .col.col-md {
@@ -196,11 +189,10 @@ body.loaded .section {
   .cols .col.col-md {
     width: 100%;
   }
-
 }
 
 .cols:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -213,7 +205,7 @@ h4,
 h5,
 h6 {
   font-weight: 500;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   margin: 0;
   margin-bottom: 30px;
   color: #141414;
@@ -331,7 +323,7 @@ textarea,
 button {
   display: block;
   background: none;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 12px;
   height: 60px;
   width: 100%;
@@ -384,7 +376,7 @@ label,
 legend {
   display: block;
   padding-bottom: 10px;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 13px;
 }
 
@@ -440,7 +432,7 @@ textarea.error {
 }
 
 label.error {
-  display: none!important;
+  display: none !important;
 }
 
 input.error::-moz-placeholder,
@@ -487,7 +479,7 @@ li {
 code {
   background: #dddddd;
   font-size: 16px;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   margin: 20px 0;
   padding: 10px 20px;
 }
@@ -591,7 +583,7 @@ td {
 
 /* 14. Blockquote */
 blockquote {
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
 }
 
 /* Animations */
@@ -633,7 +625,6 @@ blockquote {
     text-shadow: 2px 0 #303f9f;
     animation: glitch-2 2s infinite linear alternate-reverse;
   }
-
 }
 
 @keyframes glitch-1 {
@@ -708,7 +699,6 @@ blockquote {
   100% {
     clip: rect(66px, 920px, 91px, 0);
   }
-
 }
 
 @keyframes glitch-2 {
@@ -783,7 +773,6 @@ blockquote {
   100% {
     clip: rect(93px, 920px, 53px, 0);
   }
-
 }
 
 /* Mouse Button Animations */
@@ -799,6 +788,4 @@ blockquote {
   100% {
     top: 0px;
   }
-
 }
-

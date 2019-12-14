@@ -2,6 +2,7 @@
 title: Resume
 layout: resume
 glitch-title: Resume
+
 resume-items:
 - date: December 2018 - July 2019
   name: Climpact
@@ -24,6 +25,7 @@ resume-items:
   description: Design of a JAVA application generating 3D views of Swiss mountains
     using ray-tracing as part of an object-oriented programming course. We used JavaFX
     for the UI.
+
 education-items:
 - date: 2019 - Present
   name: Student at EPFL & ETHZ, Switzerland
@@ -37,6 +39,7 @@ education-items:
 - date: 2013-2016
   name: Lycée Stanislas, Paris
   description: Internat du Lycée Stanislas, Paris VI, France.
+  
 skills:
 - icon: ion-code
   name: Programming
@@ -60,4 +63,3 @@ skills:
   name: Travel & Discover
   description: Always looking for seeing new things and meeting new people.
 ---
-
