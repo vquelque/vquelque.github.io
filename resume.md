@@ -45,7 +45,7 @@ skills:
   - icon: ion-code
     name: Programming & Web Development
     description: Python, JAVA, SQL, Scala, C <br> HTML/CSS/JS & Wordpress
-  - icon: ion-lock
+  - icon: ion-lock-combination
     name: Security & Networking
     description: Networking, Software Security, Network Security, Cyber Security
   - icon: ion ion-music-note
