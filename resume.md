@@ -45,9 +45,9 @@ skills:
   - icon: ion-code
     name: Programming & Web Development
     description: Python, JAVA, SQL, Scala, C <br> HTML/CSS/JS & Wordpress
-  - icon: lock
-    name: Cyber Security, Software Security, Privacy
-    description:
+  - icon: ion-lock
+    name: Security & Networking
+    description: Networking, Software Security, Network Security, Cyber Security
   - icon: ion ion-music-note
     name: Music
     description: 'Musician and DJ. Take a look at my DJ website : <a href="http://www.vommusic.fr">vommusic.fr<a>'
